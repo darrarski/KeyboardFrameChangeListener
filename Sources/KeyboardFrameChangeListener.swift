@@ -1,7 +1,11 @@
 import UIKit
 
+/// KeyboardFrameChangeListining implementation
 public class KeyboardFrameChangeListener: KeyboardFrameChangeListening {
 
+    /// Create new listener
+    ///
+    /// - Parameter notificationCenter: source of keyboard frame change notifications
     public init(notificationCenter: NotificationCenter) {
         self.notificationCenter = notificationCenter
         observe()
@@ -9,6 +13,7 @@ public class KeyboardFrameChangeListener: KeyboardFrameChangeListening {
 
     // MARK: KeyboardFrameChangeListening
 
+    /// Called when keyboard frame is about to change
     public var keyboardFrameWillChange: ((KeyboardFrameChange) -> Void)?
 
     // MARK: Private
