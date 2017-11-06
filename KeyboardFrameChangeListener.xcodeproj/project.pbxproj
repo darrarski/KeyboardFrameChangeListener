@@ -19,6 +19,7 @@
 		311049101FB0FEE0006E6570 /* KeyboardFrameChangeListening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110490F1FB0FEE0006E6570 /* KeyboardFrameChangeListening.swift */; };
 		311049121FB0FEFA006E6570 /* KeyboardFrameChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049111FB0FEFA006E6570 /* KeyboardFrameChange.swift */; };
 		311049141FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049131FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift */; };
+		311049161FB10823006E6570 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049151FB10823006E6570 /* View.swift */; };
 		4E9D7BEB26E82002A9CB5EA8 /* Pods_KeyboardFrameChangeListenerDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */; };
 		C9E2DB36172F9FC660EB94C0 /* Pods_KeyboardFrameChangeListenerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2792DE68293CB94824F0FD0A /* Pods_KeyboardFrameChangeListenerTests.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		3110490F1FB0FEE0006E6570 /* KeyboardFrameChangeListening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameChangeListening.swift; sourceTree = "<group>"; };
 		311049111FB0FEFA006E6570 /* KeyboardFrameChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameChange.swift; sourceTree = "<group>"; };
 		311049131FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameChangeListener.swift; sourceTree = "<group>"; };
+		311049151FB10823006E6570 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardFrameChangeListenerDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A485AE933CD56A5440210B6 /* Pods-KeyboardFrameChangeListenerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerTests/Pods-KeyboardFrameChangeListenerTests.release.xcconfig"; sourceTree = "<group>"; };
 		A28023D17ABA1C776365243D /* Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				311048E31FB0F873006E6570 /* Assets.xcassets */,
 				311048E81FB0F873006E6570 /* Info.plist */,
 				311048E51FB0F873006E6570 /* LaunchScreen.storyboard */,
+				311049151FB10823006E6570 /* View.swift */,
 				311048DE1FB0F873006E6570 /* ViewController.swift */,
 			);
 			path = DemoApp;
@@ -439,6 +442,7 @@
 			files = (
 				311048DF1FB0F873006E6570 /* ViewController.swift in Sources */,
 				311048DD1FB0F873006E6570 /* AppDelegate.swift in Sources */,
+				311049161FB10823006E6570 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
