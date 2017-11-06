@@ -11,8 +11,35 @@
 		311048DF1FB0F873006E6570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311048DE1FB0F873006E6570 /* ViewController.swift */; };
 		311048E41FB0F873006E6570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311048E31FB0F873006E6570 /* Assets.xcassets */; };
 		311048E71FB0F873006E6570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311048E51FB0F873006E6570 /* LaunchScreen.storyboard */; };
+		311048F71FB0FC45006E6570 /* KeyboardFrameChangeListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 311048F51FB0FC45006E6570 /* KeyboardFrameChangeListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311048FA1FB0FC45006E6570 /* KeyboardFrameChangeListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311048F31FB0FC45006E6570 /* KeyboardFrameChangeListener.framework */; };
+		311048FB1FB0FC45006E6570 /* KeyboardFrameChangeListener.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 311048F31FB0FC45006E6570 /* KeyboardFrameChangeListener.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4E9D7BEB26E82002A9CB5EA8 /* Pods_KeyboardFrameChangeListenerDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311048F81FB0FC45006E6570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311048D11FB0F873006E6570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311048F21FB0FC45006E6570;
+			remoteInfo = KeyboardFrameChangeListener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		311048FF1FB0FC45006E6570 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				311048FB1FB0FC45006E6570 /* KeyboardFrameChangeListener.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		311048D91FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardFrameChangeListenerDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +48,9 @@
 		311048E31FB0F873006E6570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311048E61FB0F873006E6570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		311048E81FB0F873006E6570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311048F31FB0FC45006E6570 /* KeyboardFrameChangeListener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardFrameChangeListener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		311048F51FB0FC45006E6570 /* KeyboardFrameChangeListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardFrameChangeListener.h; sourceTree = "<group>"; };
+		311048F61FB0FC45006E6570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardFrameChangeListenerDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28023D17ABA1C776365243D /* Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A828939A948850414CE76474 /* Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -32,6 +62,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E9D7BEB26E82002A9CB5EA8 /* Pods_KeyboardFrameChangeListenerDemoApp.framework in Frameworks */,
+				311048FA1FB0FC45006E6570 /* KeyboardFrameChangeListener.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311048EF1FB0FC45006E6570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +83,7 @@
 				FBA040D6BA89B458C556E4F4 /* Frameworks */,
 				36CAE4A752422E075715C641 /* Pods */,
 				311048DA1FB0F873006E6570 /* Products */,
+				311048F41FB0FC45006E6570 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				311048D91FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp.app */,
+				311048F31FB0FC45006E6570 /* KeyboardFrameChangeListener.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +106,15 @@
 				311048DE1FB0F873006E6570 /* ViewController.swift */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		311048F41FB0FC45006E6570 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				311048F51FB0FC45006E6570 /* KeyboardFrameChangeListener.h */,
+				311048F61FB0FC45006E6570 /* Info.plist */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		36CAE4A752422E075715C641 /* Pods */ = {
@@ -87,6 +136,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		311048F01FB0FC45006E6570 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311048F71FB0FC45006E6570 /* KeyboardFrameChangeListener.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		311048D81FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp */ = {
 			isa = PBXNativeTarget;
@@ -98,15 +158,35 @@
 				311048D71FB0F873006E6570 /* Resources */,
 				3B59C7A502B796837837F1E8 /* [CP] Embed Pods Frameworks */,
 				76B87F4F67D6D4309ED3EAA2 /* [CP] Copy Pods Resources */,
+				311048FF1FB0FC45006E6570 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				311048F91FB0FC45006E6570 /* PBXTargetDependency */,
 			);
 			name = KeyboardFrameChangeListenerDemoApp;
 			productName = KeyboardFrameChangeListener;
 			productReference = 311048D91FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		311048F21FB0FC45006E6570 /* KeyboardFrameChangeListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311048FC1FB0FC45006E6570 /* Build configuration list for PBXNativeTarget "KeyboardFrameChangeListener" */;
+			buildPhases = (
+				311048EE1FB0FC45006E6570 /* Sources */,
+				311048EF1FB0FC45006E6570 /* Frameworks */,
+				311048F01FB0FC45006E6570 /* Headers */,
+				311048F11FB0FC45006E6570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardFrameChangeListener;
+			productName = KeyboardFrameChangeListener;
+			productReference = 311048F31FB0FC45006E6570 /* KeyboardFrameChangeListener.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -119,6 +199,10 @@
 				ORGANIZATIONNAME = "Dariusz Rybicki";
 				TargetAttributes = {
 					311048D81FB0F873006E6570 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					311048F21FB0FC45006E6570 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -138,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				311048D81FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp */,
+				311048F21FB0FC45006E6570 /* KeyboardFrameChangeListener */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +234,13 @@
 			files = (
 				311048E71FB0F873006E6570 /* LaunchScreen.storyboard in Resources */,
 				311048E41FB0F873006E6570 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311048F11FB0FC45006E6570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +307,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		311048EE1FB0FC45006E6570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311048F91FB0FC45006E6570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311048F21FB0FC45006E6570 /* KeyboardFrameChangeListener */;
+			targetProxy = 311048F81FB0FC45006E6570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		311048E51FB0F873006E6570 /* LaunchScreen.storyboard */ = {
@@ -366,6 +473,52 @@
 			};
 			name = Release;
 		};
+		311048FD1FB0FC45006E6570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.KeyboardFrameChangeListener;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		311048FE1FB0FC45006E6570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.KeyboardFrameChangeListener;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,6 +536,15 @@
 			buildConfigurations = (
 				311048EC1FB0F873006E6570 /* Debug */,
 				311048ED1FB0F873006E6570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311048FC1FB0FC45006E6570 /* Build configuration list for PBXNativeTarget "KeyboardFrameChangeListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311048FD1FB0FC45006E6570 /* Debug */,
+				311048FE1FB0FC45006E6570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
