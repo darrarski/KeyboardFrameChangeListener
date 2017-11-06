@@ -7,6 +7,28 @@
 
 Notifies you when on-screen keyboard changes its frame
 
+## Install
+
+You can integrate `KeyboardFrameChangeListener ` with your project using [CocoaPods](https://cocoapods.org). Just add this line to your `Podfile`:
+
+```ruby
+pod 'KeyboardFrameChangeListener', '~> 1.0'
+```
+
+## Use
+
+Check out included [DemoApp](DemoApp).
+
+**TL;DR**
+
+```swift
+let listener: KeyboardFrameChangeListening 
+listener = KeyboardFrameChangeListener(notificationCenter: NotificationCenter.default)
+listener.keyboardFrameWillChange = { change in
+	print("Keybaord frame will change: \(change)")
+}
+```
+
 ## License
 
 MIT License - check out [LICENSE](LICENSE) file.
