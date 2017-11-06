@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                               :tag => "v#{s.version}" }
   s.platform              = :ios
   s.ios.deployment_target = '11.1'
-  s.source_files          = 'Source'
+  s.source_files          = 'Sources'
   s.requires_arc          = true
   s.frameworks            = 'UIKit'
 end
