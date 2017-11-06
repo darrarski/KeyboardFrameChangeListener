@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/darrarski/KeyboardFrameChangeListener.svg?branch=master)](https://travis-ci.org/darrarski/KeyboardFrameChangeListener)
 [![CocoaPods](https://img.shields.io/cocoapods/v/KeyboardFrameChangeListener.svg)](https://cocoapods.org/pods/KeyboardFrameChangeListener)
 
+Notifies you when on-screen keyboard changes its frame
+
 ## License
 
 MIT License - check out [LICENSE](LICENSE) file.
