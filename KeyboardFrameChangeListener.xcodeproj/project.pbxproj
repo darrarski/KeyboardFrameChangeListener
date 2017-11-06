@@ -11,6 +11,7 @@
 		311048DF1FB0F873006E6570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311048DE1FB0F873006E6570 /* ViewController.swift */; };
 		311048E41FB0F873006E6570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311048E31FB0F873006E6570 /* Assets.xcassets */; };
 		311048E71FB0F873006E6570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311048E51FB0F873006E6570 /* LaunchScreen.storyboard */; };
+		4E9D7BEB26E82002A9CB5EA8 /* Pods_KeyboardFrameChangeListenerDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,9 @@
 		311048E31FB0F873006E6570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311048E61FB0F873006E6570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		311048E81FB0F873006E6570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardFrameChangeListenerDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28023D17ABA1C776365243D /* Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A828939A948850414CE76474 /* Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9D7BEB26E82002A9CB5EA8 /* Pods_KeyboardFrameChangeListenerDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +42,8 @@
 			isa = PBXGroup;
 			children = (
 				311048DB1FB0F873006E6570 /* DemoApp */,
+				FBA040D6BA89B458C556E4F4 /* Frameworks */,
+				36CAE4A752422E075715C641 /* Pods */,
 				311048DA1FB0F873006E6570 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +68,23 @@
 			path = DemoApp;
 			sourceTree = "<group>";
 		};
+		36CAE4A752422E075715C641 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A28023D17ABA1C776365243D /* Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig */,
+				A828939A948850414CE76474 /* Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBA040D6BA89B458C556E4F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,9 +92,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 311048EB1FB0F873006E6570 /* Build configuration list for PBXNativeTarget "KeyboardFrameChangeListenerDemoApp" */;
 			buildPhases = (
+				4478A92AF0F4DF0B85A4FB8E /* [CP] Check Pods Manifest.lock */,
 				311048D51FB0F873006E6570 /* Sources */,
 				311048D61FB0F873006E6570 /* Frameworks */,
 				311048D71FB0F873006E6570 /* Resources */,
+				3B59C7A502B796837837F1E8 /* [CP] Embed Pods Frameworks */,
+				76B87F4F67D6D4309ED3EAA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +153,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B59C7A502B796837837F1E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4478A92AF0F4DF0B85A4FB8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardFrameChangeListenerDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B87F4F67D6D4309ED3EAA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyboardFrameChangeListenerDemoApp/Pods-KeyboardFrameChangeListenerDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		311048D51FB0F873006E6570 /* Sources */ = {
@@ -260,6 +338,7 @@
 		};
 		311048EC1FB0F873006E6570 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28023D17ABA1C776365243D /* Pods-KeyboardFrameChangeListenerDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -274,6 +353,7 @@
 		};
 		311048ED1FB0F873006E6570 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A828939A948850414CE76474 /* Pods-KeyboardFrameChangeListenerDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
