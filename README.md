@@ -18,7 +18,7 @@ pod 'KeyboardFrameChangeListener', '~> 1.0'
 
 ## Use
 
-Check out included [DemoApp](DemoApp).
+Check out included [DemoApp](DemoApp) or [ScrollViewController](https://github.com/darrarski/ScrollViewController) library which uses `KeyboardFrameChangeListener` under the hood.
 
 **TL;DR**
 
