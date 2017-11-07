@@ -10,6 +10,8 @@ Notifies you when on-screen keyboard changes its frame.
 
 ## Install
 
+Minimal deployment target: **iOS 10.0**
+
 You can integrate `KeyboardFrameChangeListener ` with your project using [CocoaPods](https://cocoapods.org). Just add this line to your `Podfile`:
 
 ```ruby

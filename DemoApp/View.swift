@@ -40,10 +40,17 @@ class View: UIView {
         textField.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
 
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 16).isActive = true
-        label.leftAnchor.constraint(equalTo: safeAreaLayoutGuide.leftAnchor, constant: 16).isActive = true
-        label.rightAnchor.constraint(equalTo: safeAreaLayoutGuide.rightAnchor, constant: -16).isActive = true
-        label.bottomAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.bottomAnchor, constant: -16).isActive = true
+        if #available(iOS 11.0, *) {
+            label.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 16).isActive = true
+            label.leftAnchor.constraint(equalTo: safeAreaLayoutGuide.leftAnchor, constant: 16).isActive = true
+            label.rightAnchor.constraint(equalTo: safeAreaLayoutGuide.rightAnchor, constant: -16).isActive = true
+            label.bottomAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.bottomAnchor, constant: -16).isActive = true
+        } else {
+            label.topAnchor.constraint(equalTo: topAnchor, constant: 32).isActive = true
+            label.leftAnchor.constraint(equalTo: leftAnchor, constant: 16).isActive = true
+            label.rightAnchor.constraint(equalTo: rightAnchor, constant: -16).isActive = true
+            label.bottomAnchor.constraint(lessThanOrEqualTo: bottomAnchor, constant: -16).isActive = true
+        }
     }
 
     // MARK: Gesture Recognizing
