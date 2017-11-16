@@ -5,6 +5,7 @@
 ![Code Coverage](https://img.shields.io/badge/coverage-100%25-green.svg)
 [![Build Status](https://travis-ci.org/darrarski/KeyboardFrameChangeListener.svg?branch=master)](https://travis-ci.org/darrarski/KeyboardFrameChangeListener)
 [![CocoaPods](https://img.shields.io/cocoapods/v/KeyboardFrameChangeListener.svg)](https://cocoapods.org/pods/KeyboardFrameChangeListener)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Notifies you when on-screen keyboard changes its frame.
 
