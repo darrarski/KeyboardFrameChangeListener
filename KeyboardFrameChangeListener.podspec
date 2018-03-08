@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'KeyboardFrameChangeListener'
-  s.version               = '1.0.2'
+  s.version               = '1.0.3'
   s.summary               = 'Notifies you when on-screen keyboard changes its frame'
   s.homepage              = 'https://github.com/darrarski/KeyboardFrameChangeListener'
   s.author                = { 'Dariusz Rybicki' => 'darrarski@gmail.com' }
