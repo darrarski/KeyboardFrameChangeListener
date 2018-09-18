@@ -9,28 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "311049031FB0FD00006E6570"
                BuildableName = "KeyboardFrameChangeListenerTests.xctest"
                BlueprintName = "KeyboardFrameChangeListenerTests"
-               ReferencedContainer = "container:KeyboardFrameChangeListener.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "311048F21FB0FC45006E6570"
-               BuildableName = "KeyboardFrameChangeListener.framework"
-               BlueprintName = "KeyboardFrameChangeListener"
                ReferencedContainer = "container:KeyboardFrameChangeListener.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -67,9 +53,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "311048F21FB0FC45006E6570"
-            BuildableName = "KeyboardFrameChangeListener.framework"
-            BlueprintName = "KeyboardFrameChangeListener"
+            BlueprintIdentifier = "311049031FB0FD00006E6570"
+            BuildableName = "KeyboardFrameChangeListenerTests.xctest"
+            BlueprintName = "KeyboardFrameChangeListenerTests"
             ReferencedContainer = "container:KeyboardFrameChangeListener.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
