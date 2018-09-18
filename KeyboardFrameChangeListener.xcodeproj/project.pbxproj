@@ -39,6 +39,13 @@
 			remoteGlobalIDString = 311048F21FB0FC45006E6570;
 			remoteInfo = KeyboardFrameChangeListener;
 		};
+		31207FD82151B0BA00005729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311048D11FB0F873006E6570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311048D81FB0F873006E6570;
+			remoteInfo = KeyboardFrameChangeListenerDemoApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -248,6 +255,7 @@
 			);
 			dependencies = (
 				3110490B1FB0FD00006E6570 /* PBXTargetDependency */,
+				31207FD92151B0BA00005729 /* PBXTargetDependency */,
 			);
 			name = KeyboardFrameChangeListenerTests;
 			productName = KeyboardFrameChangeListenerTests;
@@ -277,6 +285,7 @@
 					311049031FB0FD00006E6570 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Manual;
+						TestTargetID = 311048D81FB0F873006E6570;
 					};
 				};
 			};
@@ -408,6 +417,11 @@
 			isa = PBXTargetDependency;
 			target = 311048F21FB0FC45006E6570 /* KeyboardFrameChangeListener */;
 			targetProxy = 3110490A1FB0FD00006E6570 /* PBXContainerItemProxy */;
+		};
+		31207FD92151B0BA00005729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311048D81FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp */;
+			targetProxy = 31207FD82151B0BA00005729 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -623,6 +637,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardFrameChangeListenerDemoApp.app/KeyboardFrameChangeListenerDemoApp";
 			};
 			name = Debug;
 		};
@@ -637,6 +652,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardFrameChangeListenerDemoApp.app/KeyboardFrameChangeListenerDemoApp";
 			};
 			name = Release;
 		};
