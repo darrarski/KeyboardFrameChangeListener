@@ -1,7 +1,7 @@
 # KeyboardFrameChangeListener
 
 ![Platform](https://img.shields.io/badge/platform-iOS-333333.svg)
-![Swift v4.0](https://img.shields.io/badge/swift-v4.0-orange.svg)
+![Swift v4.2](https://img.shields.io/badge/swift-v4.2-orange.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d48329c93acb3385a2b9/maintainability)](https://codeclimate.com/github/darrarski/KeyboardFrameChangeListener/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d48329c93acb3385a2b9/test_coverage)](https://codeclimate.com/github/darrarski/KeyboardFrameChangeListener/test_coverage)
 [![Build Status](https://travis-ci.org/darrarski/KeyboardFrameChangeListener.svg?branch=master)](https://travis-ci.org/darrarski/KeyboardFrameChangeListener)
@@ -49,7 +49,7 @@ listener.keyboardFrameWillChange = { change in
 Requirements: 
 
 - Ruby with [Bundler](http://bundler.io)
-- Xcode 9
+- Xcode 10
 
 To bootstrap the project run:
 
@@ -58,7 +58,7 @@ bundle install
 bundle exec fastlane setup
 ```
 
-Then open `KeyboardFrameChangeListener.xcworkspace` in Xcode.
+Then open `KeyboardFrameChangeListener.xcodeproj` in Xcode.
 
 Use `DemoApp` build scheme for building and runing demo app.
 
