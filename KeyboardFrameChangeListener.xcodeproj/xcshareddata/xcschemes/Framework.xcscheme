@@ -24,12 +24,41 @@
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "311048F21FB0FC45006E6570"
+            BuildableName = "KeyboardFrameChangeListener.framework"
+            BlueprintName = "KeyboardFrameChangeListener"
+            ReferencedContainer = "container:KeyboardFrameChangeListener.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "311049031FB0FD00006E6570"
+               BuildableName = "KeyboardFrameChangeListenerTests.xctest"
+               BlueprintName = "KeyboardFrameChangeListenerTests"
+               ReferencedContainer = "container:KeyboardFrameChangeListener.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "311048F21FB0FC45006E6570"
+            BuildableName = "KeyboardFrameChangeListener.framework"
+            BlueprintName = "KeyboardFrameChangeListener"
+            ReferencedContainer = "container:KeyboardFrameChangeListener.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
