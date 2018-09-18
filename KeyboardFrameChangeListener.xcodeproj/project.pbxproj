@@ -21,6 +21,10 @@
 		311049141FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049131FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift */; };
 		311049161FB10823006E6570 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049151FB10823006E6570 /* View.swift */; };
 		31207FD72151AF6200005729 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31207FD62151AF6200005729 /* UIKit.framework */; };
+		314767492151C2FA00C62E20 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314767472151C2F900C62E20 /* Nimble.framework */; };
+		3147674A2151C2FA00C62E20 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314767482151C2FA00C62E20 /* Quick.framework */; };
+		3147674C2151C47B00C62E20 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 314767472151C2F900C62E20 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3147674D2151C47B00C62E20 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 314767482151C2FA00C62E20 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +42,6 @@
 			remoteGlobalIDString = 311048F21FB0FC45006E6570;
 			remoteInfo = KeyboardFrameChangeListener;
 		};
-		31207FD82151B0BA00005729 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 311048D11FB0F873006E6570 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 311048D81FB0F873006E6570;
-			remoteInfo = KeyboardFrameChangeListenerDemoApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +54,17 @@
 				311048FB1FB0FC45006E6570 /* KeyboardFrameChangeListener.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3147674B2151C45E00C62E20 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3147674C2151C47B00C62E20 /* Nimble.framework in CopyFiles */,
+				3147674D2151C47B00C62E20 /* Quick.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -79,6 +87,8 @@
 		311049131FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameChangeListener.swift; sourceTree = "<group>"; };
 		311049151FB10823006E6570 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		31207FD62151AF6200005729 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		314767472151C2F900C62E20 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		314767482151C2FA00C62E20 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				311049091FB0FD00006E6570 /* KeyboardFrameChangeListener.framework in Frameworks */,
+				314767492151C2FA00C62E20 /* Nimble.framework in Frameworks */,
+				3147674A2151C2FA00C62E20 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +179,8 @@
 		FBA040D6BA89B458C556E4F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				314767472151C2F900C62E20 /* Nimble.framework */,
+				314767482151C2FA00C62E20 /* Quick.framework */,
 				31207FD62151AF6200005729 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -230,12 +244,12 @@
 				311049001FB0FD00006E6570 /* Sources */,
 				311049011FB0FD00006E6570 /* Frameworks */,
 				311049021FB0FD00006E6570 /* Resources */,
+				3147674B2151C45E00C62E20 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				3110490B1FB0FD00006E6570 /* PBXTargetDependency */,
-				31207FD92151B0BA00005729 /* PBXTargetDependency */,
 			);
 			name = KeyboardFrameChangeListenerTests;
 			productName = KeyboardFrameChangeListenerTests;
@@ -265,7 +279,6 @@
 					311049031FB0FD00006E6570 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Manual;
-						TestTargetID = 311048D81FB0F873006E6570;
 					};
 				};
 			};
@@ -356,11 +369,6 @@
 			isa = PBXTargetDependency;
 			target = 311048F21FB0FC45006E6570 /* KeyboardFrameChangeListener */;
 			targetProxy = 3110490A1FB0FD00006E6570 /* PBXContainerItemProxy */;
-		};
-		31207FD92151B0BA00005729 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 311048D81FB0F873006E6570 /* KeyboardFrameChangeListenerDemoApp */;
-			targetProxy = 31207FD82151B0BA00005729 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -569,13 +577,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.KeyboardFrameChangeListenerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardFrameChangeListenerDemoApp.app/KeyboardFrameChangeListenerDemoApp";
 			};
 			name = Debug;
 		};
@@ -583,13 +594,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.darrarski.KeyboardFrameChangeListenerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardFrameChangeListenerDemoApp.app/KeyboardFrameChangeListenerDemoApp";
 			};
 			name = Release;
 		};
