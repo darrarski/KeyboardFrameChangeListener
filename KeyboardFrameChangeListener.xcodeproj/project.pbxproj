@@ -20,6 +20,7 @@
 		311049121FB0FEFA006E6570 /* KeyboardFrameChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049111FB0FEFA006E6570 /* KeyboardFrameChange.swift */; };
 		311049141FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049131FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift */; };
 		311049161FB10823006E6570 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311049151FB10823006E6570 /* View.swift */; };
+		31207FD72151AF6200005729 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31207FD62151AF6200005729 /* UIKit.framework */; };
 		C9E2DB36172F9FC660EB94C0 /* Pods_KeyboardFrameChangeListenerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2792DE68293CB94824F0FD0A /* Pods_KeyboardFrameChangeListenerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		311049111FB0FEFA006E6570 /* KeyboardFrameChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameChange.swift; sourceTree = "<group>"; };
 		311049131FB0FF2F006E6570 /* KeyboardFrameChangeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameChangeListener.swift; sourceTree = "<group>"; };
 		311049151FB10823006E6570 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		31207FD62151AF6200005729 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardFrameChangeListenerDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A485AE933CD56A5440210B6 /* Pods-KeyboardFrameChangeListenerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerTests/Pods-KeyboardFrameChangeListenerTests.release.xcconfig"; sourceTree = "<group>"; };
 		FBFAD104C101EAED969EF824 /* Pods-KeyboardFrameChangeListenerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardFrameChangeListenerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardFrameChangeListenerTests/Pods-KeyboardFrameChangeListenerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31207FD72151AF6200005729 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +176,7 @@
 		FBA040D6BA89B458C556E4F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31207FD62151AF6200005729 /* UIKit.framework */,
 				63DBDA86647288D5421CC3DC /* Pods_KeyboardFrameChangeListenerDemoApp.framework */,
 				2792DE68293CB94824F0FD0A /* Pods_KeyboardFrameChangeListenerTests.framework */,
 			);
