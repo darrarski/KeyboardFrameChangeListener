@@ -239,7 +239,6 @@
 				311049011FB0FD00006E6570 /* Frameworks */,
 				311049021FB0FD00006E6570 /* Resources */,
 				75A147B51E4415DD6FB01E95 /* [CP] Embed Pods Frameworks */,
-				C0E99D20D6BDBC9760CB2CE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,21 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyboardFrameChangeListenerTests/Pods-KeyboardFrameChangeListenerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0E99D20D6BDBC9760CB2CE5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyboardFrameChangeListenerTests/Pods-KeyboardFrameChangeListenerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CD30634221AC821D88192321 /* [CP] Check Pods Manifest.lock */ = {
