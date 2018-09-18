@@ -23,7 +23,7 @@ public class KeyboardFrameChangeListener: KeyboardFrameChangeListening {
 
     private func observe() {
         token = notificationCenter.addObserver(
-            forName: Notification.Name.UIKeyboardWillChangeFrame,
+            forName: UIResponder.keyboardWillChangeFrameNotification,
             object: nil,
             queue: nil,
             using: { [weak self] in self?.handle($0) }
@@ -31,12 +31,22 @@ public class KeyboardFrameChangeListener: KeyboardFrameChangeListening {
     }
 
     private func handle(_ notification: Notification) {
-        guard let endFrame = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? CGRect,
-            let animationDuration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? Double else {
-                return
-        }
+        guard let endFrame = notification.keyboardFrameEnd,
+              let animationDuration = notification.keyboardAnimationDuration else { return }
         let change = KeyboardFrameChange(frame: endFrame, animationDuration: animationDuration)
         keyboardFrameWillChange?(change)
+    }
+
+}
+
+private extension Notification {
+
+    var keyboardFrameEnd: CGRect? {
+        return userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect
+    }
+
+    var keyboardAnimationDuration: Double? {
+        return userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double
     }
 
 }

@@ -25,11 +25,11 @@ class KeyboardFrameChangeListenerSpec: QuickSpec {
                     frame = CGRect(x: 5, y: 7, width: 19, height: 21)
                     animationDuration = 0.12
                     notificationCenter.post(Notification(
-                        name: Notification.Name.UIKeyboardWillChangeFrame,
+                        name: UIResponder.keyboardWillChangeFrameNotification,
                         object: nil,
                         userInfo: [
-                            UIKeyboardFrameEndUserInfoKey: frame,
-                            UIKeyboardAnimationDurationUserInfoKey: animationDuration
+                            UIResponder.keyboardFrameEndUserInfoKey: frame,
+                            UIResponder.keyboardAnimationDurationUserInfoKey: animationDuration
                         ]
                     ))
                 }
@@ -62,7 +62,7 @@ class KeyboardFrameChangeListenerSpec: QuickSpec {
             context("invalid notification") {
                 beforeEach {
                     notificationCenter.post(Notification(
-                        name: Notification.Name.UIKeyboardWillChangeFrame,
+                        name: UIResponder.keyboardWillChangeFrameNotification,
                         object: nil,
                         userInfo: [:]
                     ))
