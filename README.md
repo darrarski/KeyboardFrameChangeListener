@@ -10,6 +10,12 @@
 
 Notifies you when on-screen keyboard changes its frame.
 
+## ⚠️ Deprecation Notice
+
+**This project became a part of [ScrollViewController](https://github.com/darrarski/ScrollViewController).**
+
+**It's obsolete and will no longer be maintained.**
+
 ## Install
 
 Minimum deployment target: **iOS 10.0**
